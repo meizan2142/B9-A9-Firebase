@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import { NavLink } from "react-router-dom";
 
 const Login = () => {
@@ -12,6 +13,9 @@ const Login = () => {
     }
     return (
         <div className="flex justify-center items-center">
+            <Helmet>
+                <title>SOLAZ--Login</title>
+            </Helmet>
             <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
                 <form onSubmit={handleSignIn} className="card-body">
                     <div className="form-control">

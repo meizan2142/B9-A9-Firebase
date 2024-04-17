@@ -2,9 +2,9 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
     const navLinks = <>
-    <li><NavLink to='/'>Home</NavLink></li>
-    <li><NavLink to='/updateprofile'>UpdateProfile</NavLink></li>
-    <li><NavLink to='/userprofile'>UserProfile</NavLink></li>
+    <li><NavLink className="mr-4" to='/'>Home</NavLink></li>
+    <li><NavLink className="mr-4" to='/updateprofile'>UpdateProfile</NavLink></li>
+    <li><NavLink className="mr-4" to='/userprofile'>UserProfile</NavLink></li>
     </>
     return (
         <div className="navbar bg-base-100">
@@ -17,7 +17,7 @@ const Navbar = () => {
                         {navLinks}
                     </ul>
                 </div>
-                <NavLink to="/" className="btn btn-ghost text-xl bg-[#3c3c34] text-white">SOLAZ</NavLink>
+                <NavLink to="/" className="btn btn-ghost text-2xl bg-[#3c3c34] font-bold text-white">SOLAZ</NavLink>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
@@ -42,8 +42,7 @@ const Navbar = () => {
                         <li><a>Logout</a></li>
                     </ul>
                 </div>
-                {/* <a  className="btn">LogIn</a> */}
-                <NavLink to='/login' className='btn'>LogIn</NavLink>
+                <NavLink to='/login' className='btn font-bold text-xl text-white bg-[#3c3c34]'>LogIn</NavLink>
             </div>
         </div>
     );
