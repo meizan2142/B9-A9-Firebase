@@ -4,9 +4,6 @@ import { NavLink } from "react-router-dom";
 const Login = () => {
     const handleSignIn = e => {
         e.preventDefault()
-        // const form = new FormData(e.currenTarget);
-        // const email = form.get('email')
-        // const password = form.get('password')
         const email = e.target.email.value;
         const password = e.target.password.value;
         console.log(email, password);

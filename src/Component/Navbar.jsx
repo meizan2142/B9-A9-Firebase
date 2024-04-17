@@ -17,7 +17,7 @@ const Navbar = () => {
                         {navLinks}
                     </ul>
                 </div>
-                <NavLink to="/" className="btn btn-ghost text-2xl bg-[#3c3c34] font-bold text-white">SOLAZ</NavLink>
+                <NavLink to="/" className="btn btn-ghost lg:text-2xl bg-[#3c3c34] font-bold text-white">SOLAZ</NavLink>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
@@ -42,7 +42,7 @@ const Navbar = () => {
                         <li><a>Logout</a></li>
                     </ul>
                 </div>
-                <NavLink to='/login' className='btn font-bold text-xl text-white bg-[#3c3c34]'>LogIn</NavLink>
+                <NavLink to='/login' className='btn font-bold lg:text-xl text-white bg-[#3c3c34]'>LogIn</NavLink>
             </div>
         </div>
     );
