@@ -1,18 +1,10 @@
 import { NavLink } from "react-router-dom";
 
 const Register = () => {
-    const handleRegister = e => {
-        e.preventDefault()
-        const name = e.target.name.value;
-        const email = e.target.email.value;
-        const photo = e.target.photo.value;
-        const password = e.target.password.value;
-        console.log(name, email, password, photo);
-    }
     return (
         <div className="flex justify-center items-center">
             <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
-                <form onSubmit={handleRegister} className="card-body">
+                <form className="card-body">
                     <div className="form-control">
                         <input type="text" placeholder="Your Name" name="name" className="input input-bordered" required />
                     </div>
@@ -26,14 +18,12 @@ const Register = () => {
                         <input type="password" placeholder="Password" name="password" className="input input-bordered" required />
                     </div>
                     <div className="form-control mt-6">
-                        <NavLink to="/login">
                             <button className="btn btn-primary w-full">Register</button>
-                        </NavLink>
-                    </div>
-                    <div className="text-center">
-                        <p>Already have an account?please,<NavLink className="text-primary underline" to="/login">Login</NavLink></p>
                     </div>
                 </form>
+                    <div className="text-center mb-4">
+                        <p>Already have an account?<br /> Please, <NavLink className="text-primary font-bold" to="/login">Login</NavLink></p>
+                    </div>
             </div>
         </div>
     );

@@ -4,8 +4,8 @@ import Root from "../root/Root";
 import Home from "../pages/Home";
 import Updateprofile from "../pages/Updateprofile";
 import UserProfile from "../pages/UserProfile";
-import Login from "../Component/Login";
-import Register from "../Component/Register";
+import Login from "../pages/Login";
+import Register from "../pages/Register";
 
 const router = createBrowserRouter([
     {
