@@ -4,7 +4,7 @@ export const EstateContext = createContext()
 const ContextComponent = ({children}) => {
     const [estateDetails, setEstateDetails] = useState([])
     useEffect(() => {
-        fetch('/public/estate.json')
+        fetch('/estate.json')
         .then((res) => res.json())
         .then((data) => {
             setEstateDetails(data)

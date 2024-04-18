@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 const Shop = () => {
     const [shopCardDetails, setShopCardDetails] = useState([])
     useEffect(() => {
-        fetch('/public/shop.json')
+        fetch('/shop.json')
             .then((res) => res.json())
             .then((data) => {
                 setShopCardDetails(data)
