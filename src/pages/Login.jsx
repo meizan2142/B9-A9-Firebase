@@ -31,16 +31,16 @@ const Login = () => {
                         </label>
                     </div>
                     <div className="form-control mt-6">
-                            <button className="btn btn-primary w-full">Login</button>
+                        <button className="btn btn-primary w-full">Login</button>
                     </div>
                 </form>
-                    <div className="text-center">
-                        <p>Do not have an account? <br /> Please, <NavLink className="text-primary font-bold" to="/register">Register</NavLink></p>
-                    </div>
-                    <div className="m-6 space-y-5 ">
-                        <button className="btn btn-primary w-full">Singin With Google</button>
-                        <button className="btn btn-primary w-full">Signin With Github</button>
-                    </div>
+                <div className="text-center">
+                    <p>Do not have an account? <br /> Please, <NavLink className="text-primary font-bold" to="/register">Register</NavLink></p>
+                </div>
+                <div className="m-6 space-y-5 ">
+                    <button className="btn btn-primary w-full">Singin With Google</button>
+                    <button className="btn btn-primary w-full">Signin With Github</button>
+                </div>
             </div>
         </div>
     );
