@@ -15,7 +15,7 @@ const Register = () => {
     return (
         <div className="flex justify-center items-center ">
             <Helmet>
-                <title>SOLAZ--Register</title>
+                <title>SOLAZ -- Register</title>
             </Helmet>
             <div className="card shadow-2xl bg-base-100">
                 <form onSubmit={handleRegister} className="card-body">
