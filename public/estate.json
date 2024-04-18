@@ -1,0 +1,146 @@
+[
+    {
+        "id": 1,
+        "estate_title": "Single Room",
+        "segment_name": "Premium",
+        "description": "Exquisite villa with direct beach access and stunning ocean views.",
+        "price": "$50.0 NIGHT",
+        "status": "sale",
+        "area": "5000 sq ft",
+        "location": "Sunset Bay, Hawaii",
+        "facilities": [
+            "Living Room",
+            "Swimming Pool",
+            "Kitchen"
+        ],
+        "image": "https://i.ibb.co/x3YfdxT/room-9.jpg"
+    },
+    {
+        "id": 2,
+        "estate_title": "Double Room",
+        "segment_name": "Urban",
+        "description": "Elegant condo in a prestigious high-rise building with city skyline vistas.",
+        "price": "$40.0 NIGHT",
+        "status": "sale",
+        "area": "1800 sq ft",
+        "location": "Downtown Metropolis, New York",
+        "facilities": [
+            "Gym",
+            "Spa",
+            "Concierge"
+        ],
+        "image": "https://i.ibb.co/gZV538t/room-4-1.jpg"
+    },
+    {
+        "id": 3,
+        "estate_title": "HoneyMoon Room",
+        "segment_name": "Traditional",
+        "description": "Cozy cabin nestled in the tranquil beauty of the mountains, perfect for relaxation.",
+        "price": "$75.0 NIGHT",
+        "status": "sale",
+        "area": "2500 sq ft",
+        "location": "Alpine Haven, Switzerland",
+        "facilities": [
+            "Fireplace",
+            "Sauna",
+            "Deck"
+        ],
+        "image": "https://i.ibb.co/4tv8GKM/room-8.jpg"
+    },
+    {
+        "id": 4,
+        "estate_title": "Pool Villa",
+        "segment_name": "Urban",
+        "description": "Chic loft apartment with modern design elements and urban convenience.",
+        "price": "$40.0 NIGHT",
+        "status": "rent",
+        "area": "1200 sq ft",
+        "location": "City Center, Los Angeles",
+        "facilities": [
+            "Open Kitchen",
+            "Balcony",
+            "Fitness Center"
+        ],
+        "image": "https://i.ibb.co/jwPsDp9/room-7.jpg"
+    },
+    {
+        "id": 5,
+        "estate_title": "Friends Villa",
+        "segment_name": "Premium",
+        "description": "Majestic mansion overlooking a serene lake, offering luxurious living.",
+        "price": "$50.0 NIGHT",
+        "status": "sale",
+        "area": "8000 sq ft",
+        "location": "Lakeside Estates, Canada",
+        "facilities": [
+            "Home Theater",
+            "Boat Dock",
+            "Wine Cellar"
+        ],
+        "image": "https://i.ibb.co/KxYpbff/friends-villa.jpg"
+    },
+    {
+        "id": 6,
+        "estate_title": "Family Villa",
+        "segment_name": "Traditional",
+        "description": "Charming farmhouse surrounded by rolling hills and lush greenery.",
+        "price": "$100.0 NIGHT",
+        "status": "sale",
+        "area": "2000 sq ft",
+        "location": "Rural Retreat, France",
+        "facilities": [
+            "Garden",
+            "Barn",
+            "Porch"
+        ],
+        "image": "https://i.ibb.co/p1pYkt8/family-villa.jpg"
+    },
+    {
+        "id": 7,
+        "estate_title": "Single Room",
+        "segment_name": "Urban",
+        "description": "Modern apartment in a vibrant urban neighborhood, perfect for city living.",
+        "price": "$55.0 NIGHT",
+        "status": "sale",
+        "area": "1000 sq ft",
+        "location": "Downtown District, Singapore",
+        "facilities": [
+            "Study Room",
+            "Pool",
+            "Security"
+        ],
+        "image": "https://i.ibb.co/x3YfdxT/room-9.jpg"
+    },
+    {
+        "id": 8,
+        "estate_title": "Friends Villa",
+        "segment_name": "Traditional",
+        "description": "Cozy cottage nestled in a peaceful forest setting, ideal for nature enthusiasts.",
+        "price": "$69.0 NIGHT",
+        "status": "sale",
+        "area": "1500 sq ft",
+        "location": "Woodland Haven, Sweden",
+        "facilities": [
+            "Fire Pit",
+            "Deck",
+            "Hiking Trails"
+        ],
+        "image": "https://i.ibb.co/KxYpbff/friends-villa.jpg"
+    },
+    {
+        "id": 9,
+        "estate_title": "Kitchen Room",
+        "segment_name": "Premium",
+        "description": "Luxurious apartment with panoramic views of the sea, offering a serene coastal lifestyle.",
+        "price": "$80.0 NIGHT",
+        "status": "sale",
+        "area": "2200 sq ft",
+        "location": "Seashore Terrace, Australia",
+        "facilities": [
+            "Balcony",
+            "Beach Access",
+            "Fitness Center"
+        ],
+        "image": "https://i.ibb.co/5ByW4tH/kitchen-types-of-rooms-in-a-house-1024x576.webp"
+    }
+]

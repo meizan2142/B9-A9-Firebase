@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Sloaz Blanket",
+        "price":  "£50.00",
+        "image": "https://i.ibb.co/gMLyBfW/e30f215daed7b62954db6e9713805bc8.png"
+    },
+    {
+        "name": "Sloaz Blanket 10",
+        "price": "£20.00",
+        "image": "https://i.ibb.co/gMLyBfW/e30f215daed7b62954db6e9713805bc8.png"
+    },
+    {
+        "name": "Sloaz Blanket 2",
+        "price": "£25.00",
+        "image": "https://i.ibb.co/fNdm5v0/prd2.jpg"
+    },
+    {
+        "name": "Sloaz Blanket 3",
+        "price": "£20.00",
+        "image": "https://i.ibb.co/gMLyBfW/e30f215daed7b62954db6e9713805bc8.png"
+    },
+    {
+        "name": "Sloaz Blanket 4",
+        "price": "£20.00",
+        "image": "https://i.ibb.co/fNdm5v0/prd2.jpg"
+    },
+    {
+        "name": "Sloaz Blanket 5",
+        "price": "£20.00",
+        "image": "https://i.ibb.co/gMLyBfW/e30f215daed7b62954db6e9713805bc8.png"
+    },
+    {
+        "name": "Sloaz Blanket 6",
+        "price": "£20.00",
+        "image": "https://i.ibb.co/fNdm5v0/prd2.jpg"
+    },
+    {
+        "name": "Sloaz Blanket 7",
+        "price": "£20.00",
+        "image": "https://i.ibb.co/fNdm5v0/prd2.jpg"
+    },
+    {
+        "name": "Sloaz Blanket 8",
+        "price": "£20.00",
+        "image": "https://i.ibb.co/ZdFx2Dk/prd3.jpg"
+    },
+    {
+        "name": "Sloaz Blanket 9",
+        "price": "£20.00",
+        "image": "https://i.ibb.co/XYPvrsr/prd4.jpg"
+    }
+]

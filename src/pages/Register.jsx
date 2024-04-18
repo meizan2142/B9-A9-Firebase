@@ -13,11 +13,11 @@ const Register = () => {
         console.log(name, photo, email, password);
     }
     return (
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center ">
             <Helmet>
                 <title>SOLAZ--Register</title>
             </Helmet>
-            <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+            <div className="card shadow-2xl bg-base-100">
                 <form onSubmit={handleRegister} className="card-body">
                     <div className="form-control">
                         <input type="text" placeholder="Your Name" name="name" className="input input-bordered" required />

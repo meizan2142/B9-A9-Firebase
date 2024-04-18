@@ -13,7 +13,7 @@ const Login = () => {
             <Helmet>
                 <title>SOLAZ--Login</title>
             </Helmet>
-            <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+            <div className="card shadow-2xl bg-base-100">
                 <form onSubmit={handleSignIn} className="card-body">
                     <div className="form-control">
                         <label className="label">
